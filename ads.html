@@ -1,10 +1,41 @@
 <html>
-<head>
-<script type="text/javascript" src="js.js"></script>
+ <head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <link rel="stylesheet" type="text/css" href="ads.css">
+
+   <link rel="stylesheet" type="text/css" href="banner.css">
+
+   <link rel="stylesheet" type="text/css" href="interstitial.css">
+
+   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+   <script src="interstitial.js"></script>
+
+   <script src="banner.js"></script>
+
+ </head>
+
 <body onload="ShowBanners()">
-<center>
-<a href="javascript: ShowLinks()">
-<img src="banner1.jpg" width="300" height="60" name="ChangeBanner"/></a>
-</center>
-</body>
+
+  <center>
+   <div class="ads">
+     <a href="javascript: ShowLinks()">
+       <img src="banner1.jpg" name="ChangeBanner" height="80" width="100%"/></a>
+   </div>
+  <center>
+  
+   <div id="popup_this">
+    <span id="spanx" style="display:none" class="button b-close">
+        <span >X</span>
+    </span>
+    <h3>A nice ads goes here!</h3>
+    <p>Put here your ads type, Like Video, Image.</p>
+   </div>
+<script>
+setTimeout(function(){ $('#spanx').show();}, 5000);
+</script>
+
+ </body>
 </html>
