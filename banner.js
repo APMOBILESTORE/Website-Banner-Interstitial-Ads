@@ -1,4 +1,4 @@
-MyBanners=new Array('ads/banner1.jpg','ads/banner2.jpg','ads/banner3.jpg','ads/banner4.jpg')
+MyBanners=new Array('banner1.jpg','banner2.jpg','banner3.jpg','banner4.jpg')
 MyBannerLinks=new Array('www.up11wala.com/','www.apmobilestore.com/','www.google.com/','www.youtube.com/')
 banner=0
 function ShowLinks(){
